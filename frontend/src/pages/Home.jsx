@@ -43,7 +43,7 @@ const Home = () => {
         </>
         
       )) : 
-        <div className='h-screen flex justify-center items-center'>
+        <div className='flex items-center justify-center h-screen'>
         <Loader/>
         </div>
       }
